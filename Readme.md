@@ -17,7 +17,7 @@ It should run in a folder of the Samsung data (the zip had this folder: UCI HAR 
 - test
 - train
 
-The output is created in working directory with the name of tidy2.txt
+The output is created in working directory with the name of tidydata.txt
 
 Note: the R script is built to run without including any libraries for the purpose of this course.
 
@@ -53,8 +53,4 @@ Create a new data frame by finding the mean for each combination of subject and 
 
 Write the new tidy set into a text file called tidydata.txt, formatted similarly to the original files.
 
-#Prouduce Codebook
-     
-library(knitr)
-knit2html("codebook.Rmd"); 
      
